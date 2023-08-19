@@ -1,0 +1,140 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    color:#1E255E;
+}
+.my-brand {
+    /* font-family: 'Gardien Font', sans-serif; */
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #041c3a, #4c00ff);   
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gardien 2s infinite;
+}
+.my-link{
+    /* font-size: 30px; */
+    /* height:30px; */
+    font-weight: bold;
+    color: #1d213c94;
+}
+.my-link:hover{
+    /* font-size: 30px; */
+    height:30px;
+    font-weight: bold;
+    color: #050822fe;
+    border-bottom: 1px solid #050822fe;
+}
+.link-actives{
+    /* font-size: 30px; */
+    height:30px;
+    font-weight: bold;
+    color: #050822fe!important;
+    border-bottom: 1px solid #050822fe;
+}
+.navbar {
+    height:80px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.navbar-scrolled {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Atur warna dan ukuran bayangan yang diinginkan */
+    background-color: white;
+}
+#hero{
+    padding-top:80px;
+    height: 90vh;
+}
+.hero-content{
+    padding-top:10%;
+}
+.welcome-brand{
+    font-size: 40px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #0073ff, #ff0088);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gardien 2s infinite;
+}
+.welcome{
+    font-size: 30px;
+}
+.code-icon{
+    font-size: 160px;
+    font-weight: bold;
+    color: #1b2044;
+}
+.title{
+    font-weight: bold;
+    background: linear-gradient(45deg, #0073ff, #ff0088);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gardien 2s infinite;
+}
+.bg-card{
+    background:  linear-gradient(45deg, #062141, #a200ff);;
+}
+.upload-by{
+    opacity: 0.5;
+}
+
+
+#register{
+    min-height: 75vh;
+}
+/* font-size */
+.fs-10{
+    font-size: 10px;
+}
+.fs-12{
+    font-size: 12px;
+}
+/* /font-size */
+
+/* utility */
+.card{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    border-radius:10px;
+}
+.btn-1{
+    background-color: #1b204494;
+    color: white;
+    border-radius:20px;
+}
+.btn-1:hover{
+    background-color: #1b2044;
+    color: white;
+}
+.btn-2{
+    border:1px solid #1b204494;
+    color: rgb(75, 71, 71);
+    border-radius:30px;
+    font-size: 12px;
+}
+.btn-2:hover{
+    background-color: #1b2044;
+    color: white;
+}
+.btn-3{
+    background-color: #1b204494;
+    color: white;
+    /* border-radius:20px; */
+}
+.btn-3:hover{
+    background-color: #1b2044;
+    color: white;
+}
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .no-bullets li{
+    margin-bottom: 20px;
+  }
+/* /utility */
+
+/* form */
+.input-group-text{
+    background-color: white;
+    border-right:transparent;
+}
+/* /form */
